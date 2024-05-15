@@ -108,6 +108,7 @@ span {
     font-size: 7rem;
     font-weight: 700;
     margin-top: 1.5rem;
+    margin-bottom: 2rem;
     line-height: 1;
 }
 .home-img{
@@ -193,3 +194,4 @@ span {
     background-color: var(--main-color);
     color: black;
 }
+
