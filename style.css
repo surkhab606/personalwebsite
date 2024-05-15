@@ -6,15 +6,15 @@
     border: none; 
     outline: none;
     scroll-behavior: smooth;
-    font-family: "Poppins", sans-serif;
-    } asasd
+    font-family:"Poppins", sans-serif;
+    } 
 :root {
     --bg-color:#080808;
     --second-bg-color:#131313;
     --text-color: white;
     --main-color: #00ffee;
 }
-first commit! 
+
 html{
     font-size: 60%;
     overflow-x: hidden;
@@ -44,3 +44,18 @@ body{
     cursor: pointer;
     transition: 0.3s ease;
 }
+.logo:hover{
+    transform: scale(1.1);
+}
+.logo span{
+    text-shadow: 0 0 25px var(--main-color);
+}
+.navbar a{
+    font-size: 1.8rem;
+    color: var(--text-color);
+    margin-left: 4rem;
+    font-weight: 500;
+    transition: 0.3s ease;
+    border-bottom: 3px solid transparent;
+}
+.navbar a:hover
