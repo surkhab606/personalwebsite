@@ -213,6 +213,7 @@ span {
     display: flex;
     flex-wrap: wrap;
     position: relative;
+   
 }
 .timeline-items::before{
     content: "";
@@ -279,7 +280,7 @@ span {
     font-size: 20px;
     color: white;
     margin: 0 0 10px;
-    font-weight: 1000;
+    font-weight: 500;
 }
 
 .timeline-content p{
@@ -290,9 +291,29 @@ span {
 
 }
 
-::-webkit-scrollbar {
-    width: 15px;
+::-webkit-scrollbar{
+    width:15px;
 }
-::-webkit-scrollbar-thumb {
+::-webkit-scrollbar-thumb{
     background-color: var(--main-color);
 }
+::-webkit-scrollbar-track{
+    background:var(--bg-color);
+    width: 50px;
+}
+ 
+.projects{
+    background: var(--bg-color);
+    color: black;
+}
+
+.projects h2 {
+    margin-bottom: 5rem;
+    color: white;
+}
+
+.projects-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
