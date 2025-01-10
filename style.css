@@ -321,7 +321,7 @@ span {
 
 .project-box{
     background-color: var(--main-color);
-    height: 300px;
+    min-height: 300px;
     border-radius: 3rem;
     border: 5px solid transparent;
     cursor: pointer;
@@ -357,7 +357,6 @@ span {
 .project-info p{
     font-size: 1.6rem;
     font-weight: 600;
-    max-height: 100px;
     line-height: 1.7;
     margin: auto;
 }
