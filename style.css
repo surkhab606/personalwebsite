@@ -362,6 +362,18 @@ span {
     margin: auto;
 }
 
+.project-link {
+    color: black;
+}
+
+.project-link:hover {
+    color: lightgray;
+}
+
+.project-link:visited {
+    color: black;
+}
+
 .contact{
     background-color: var(--bg-color);
 }
