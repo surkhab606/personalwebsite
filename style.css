@@ -361,9 +361,6 @@ span {
     overflow-wrap: break-word;
 }
 
-.project-link {
-    color: black;
-}
 
 .project-link:hover {
     color: lightgray;
