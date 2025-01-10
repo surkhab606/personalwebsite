@@ -342,7 +342,6 @@ span {
     display: flex;
     flex-direction: column;
     text-align: left;
-    max-height: 200px;
     justify-content: left;
     align-items: baseline;
     padding: 5rem 5rem;
@@ -358,7 +357,9 @@ span {
     font-size: 1.6rem;
     font-weight: 600;
     line-height: 1.7;
-    margin: auto;
+    white-space: normal;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
 }
 
 .project-link {
