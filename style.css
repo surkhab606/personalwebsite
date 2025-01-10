@@ -335,6 +335,7 @@ span {
     background: white;
     border: 5px solid var(--main-color);
     transform:scale(1.05);
+    color: lightgray;
 }
 
 .project-box .project-info{
